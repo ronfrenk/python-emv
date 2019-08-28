@@ -27,7 +27,7 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     keywords="smartcard emv payment",
-    python_requires=">=3.4",
+    python_requires=">=2.7",
     packages=["emv", "emv.protocol", "emv.command"],
     install_requires=[
         "enum-compat",
